@@ -5,19 +5,18 @@ title: Home
 {% set data = homepage %}
 
 <!-- Hero Section -->
-<section class="relative h-[500px] bg-[url('https://placehold.co/api/placeholder/1200/500')] bg-center bg-cover">
+<section class="relative h-[500px] bg-center bg-cover" style="background-image:url('{{ data.hero.backgroundImage }}')">
   <div class="absolute inset-0 bg-black bg-opacity-70"></div>
   <div class="relative z-10 max-w-[800px] mx-auto px-5 text-center flex flex-col items-center justify-center h-full">
     <h1 class="text-4xl md:text-5xl font-bold mb-6 drop-shadow-lg text-white">
-      Professional Concrete Cutting &amp; Core Drilling Services
+      {{ data.hero.heading }}
     </h1>
     <p class="text-lg md:text-xl mb-8 drop-shadow text-gray-100">
-      With over 20 years of experience, we deliver the highest quality
-      concrete cutting services for residential and commercial projects.
+      {{ data.hero.subheading }}
     </p>
-    <a href="#contact"
+    <a href="{{ data.hero.ctaUrl }}"
        class="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-800 transition">
-      Request A Quote Today
+      {{ data.hero.ctaText }}
     </a>
   </div>
 </section>
@@ -27,14 +26,14 @@ title: Home
   <div class="max-w-[1200px] mx-auto px-5">
     <div class="text-center mb-10">
       <h2 class="text-3xl font-bold mb-4 inline-block border-b-4 border-yellow-400">
-        Our Services
+        {{ data.services.title }}
       </h2>
       <p class="text-gray-600">
-        We provide a full range of concrete cutting, coring, and removal services
+        {{ data.services.description }}
       </p>
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-      {% for service in data.services %}
+      {% for service in data.services.list %}
       <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:-translate-y-1 transition">
         <div class="h-48 overflow-hidden">
           <img src="{{ service.image }}" alt="{{ service.title }}" class="w-full h-full object-cover">
@@ -54,12 +53,12 @@ title: Home
   <div class="max-w-[1200px] mx-auto px-5">
     <div class="text-center mb-10">
       <h2 class="text-3xl font-bold mb-4 inline-block border-b-4 border-yellow-400">
-        Why Choose Us
+        {{ data.features.title }}
       </h2>
-      <p class="text-gray-600">What sets us apart from the competition</p>
+      <p class="text-gray-600"> {{ data.features.description }}</p>
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-      {% for feature in data.features %}
+      {% for feature in data.features.list %}
       <div class="flex items-start space-x-4">
         <div class="flex-shrink-0 bg-black text-yellow-400 w-12 h-12 flex items-center justify-center rounded-full text-xl">
           {{ feature.icon }}
@@ -79,14 +78,14 @@ title: Home
   <div class="max-w-[1200px] mx-auto px-5">
     <div class="text-center mb-10">
       <h2 class="text-3xl font-bold mb-4 inline-block border-b-4 border-yellow-400">
-        Our Work
+        {{ data.gallery.title }}
       </h2>
       <p class="text-gray-600">
-        See samples of our concrete cutting and core drilling projects
+       {{ data.gallery.description }}
       </p>
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-      {% for image in data.gallery %}
+      {% for image in data.gallery.images %}
       <div class="overflow-hidden rounded-lg shadow-lg">
         <img src="{{ image.src }}" alt="{{ image.alt }}" class="w-full h-full object-cover hover:scale-105 transition-transform">
       </div>
@@ -96,17 +95,16 @@ title: Home
 </section>
 
 <!-- Call to Action Section -->
-<section class="relative py-16 bg-[url('https://placehold.co/api/placeholder/1200/400')] bg-center bg-cover">
+<section class="relative py-16 bg-center bg-cover" style="background-image:url('{{ data.cta.backgroundImage }}')">
   <div class="absolute inset-0 bg-black bg-opacity-80"></div>
   <div class="relative z-10 max-w-[800px] mx-auto px-5 text-center text-white">
-    <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Start Your Project?</h2>
+    <h2 class="text-3xl md:text-4xl font-bold mb-6">{{ data.cta.heading }}</h2>
     <p class="text-lg md:text-xl mb-8">
-      Contact us today for a free consultation and quote. Our team is
-      ready to provide the professional concrete cutting services you need.
+      {{ data.cta.text }}
     </p>
-    <a href="#contact"
+    <a href="{{ data.cta.buttonUrl }}"
        class="inline-block bg-blue-700 px-6 py-3 rounded-lg shadow hover:bg-blue-800 transition">
-      Get Your Free Quote
+      {{ data.cta.buttonText }}
     </a>
   </div>
 </section>
