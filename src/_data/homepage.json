@@ -1,0 +1,90 @@
+{
+  "site": {
+    "title": "Bayani Concrete Cutting",
+    "phone": "555-123-4567",
+    "year": 2025
+  },
+  "navigation": [
+    { "name": "Home", "url": "/" },
+    { "name": "Services", "url": "#services" },
+    { "name": "About Us", "url": "#about" },
+    { "name": "Gallery", "url": "#gallery" },
+    { "name": "Contact", "url": "#contact" }
+  ],
+  "hero": {
+    "heading": "Professional Concrete Cutting & Core Drilling Services",
+    "subheading": "With over 20 years of experience, we deliver the highest quality concrete cutting services for residential and commercial projects.",
+    "ctaText": "Request A Quote Today",
+    "ctaUrl": "#contact",
+    "backgroundImage": "https://placehold.co/1200x500"
+  },
+  "services": [
+    {
+      "title": "Core Drilling",
+      "description": "Precise core drilling for plumbing, electrical, HVAC and other utility penetrations in concrete walls, floors and ceilings.",
+      "image": "https://placehold.co/400x200"
+    },
+    {
+      "title": "Concrete Sawing",
+      "description": "Professional concrete cutting for doorways, windows, and other openings with minimal dust and noise.",
+      "image": "https://placehold.co/400x200"
+    },
+    {
+      "title": "Concrete Removal",
+      "description": "Efficient demolition and removal of concrete structures, slabs, and foundations for renovations or new construction.",
+      "image": "https://placehold.co/400x200"
+    },
+    {
+      "title": "Slab Sawing",
+      "description": "Precision flat sawing for concrete floors, bridge decks, and pavements for repairs or modifications.",
+      "image": "https://placehold.co/400x200"
+    }
+  ],
+  "features": [
+    {
+      "icon": "✓",
+      "title": "Experienced Team",
+      "description": "Our team has over 20 years of experience in the concrete cutting industry, ensuring professional quality on every job."
+    },
+    {
+      "icon": "✓",
+      "title": "State-of-the-Art Equipment",
+      "description": "We use only the best equipment and latest technology to deliver precise, clean cuts every time."
+    },
+    {
+      "icon": "✓",
+      "title": "Safety First",
+      "description": "Safety is our top priority. Our team is fully trained and certified, and we follow all safety protocols on every job."
+    },
+    {
+      "icon": "✓",
+      "title": "Competitive Pricing",
+      "description": "We offer fair, competitive pricing without compromising on quality or service."
+    },
+    {
+      "icon": "✓",
+      "title": "Timely Service",
+      "description": "We understand the importance of deadlines and work efficiently to complete projects on time, every time."
+    },
+    {
+      "icon": "✓",
+      "title": "Licensed & Insured",
+      "description": "We are fully licensed, bonded, and insured for your protection and peace of mind."
+    }
+  ],
+  "gallery": [
+    { "src": "/images/1.jpg", "alt": "Bayani Concrete Cutting Truck" },
+    { "src": "/images/2.jpg", "alt": "Excavation Project" },
+    { "src": "/images/3.jpg", "alt": "Construction Equipment" },
+    { "src": "/images/4.jpg", "alt": "Concrete Removal" },
+    { "src": "/images/5.jpg", "alt": "Concrete Cutting Machine" },
+    { "src": "/images/6.jpeg", "alt": "Core Drilling Project" }
+  ],
+  "cta": {
+    "heading": "Ready to Start Your Project?",
+    "text": "Contact us today for a free consultation and quote. Our team is ready to provide the professional concrete cutting services you need.",
+    "buttonText": "Get Your Free Quote",
+    "buttonUrl": "/contact",
+    "backgroundImage": "https://placehold.co/1200x400"
+  }
+}

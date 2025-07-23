@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "Our Project Gallery"
+  },
+  "pageHeader": {
+    "backgroundImage": "https://placehold.co/1200x400",
+    "breadcrumbs": [
+      { "label": "Home", "url": "/" },
+      { "label": "Gallery", "url": null }
+    ],
+    "title": "Our Project Gallery",
+    "subtitle": "See examples of our professional concrete cutting and core drilling work"
+  },
+  "gallery": {
+    "sectionTitle": "Project Gallery",
+    "sectionSubtitle": "Browse through our portfolio of completed projects",
+    "filters": [
+      "All Projects",
+      "Core Drilling",
+      "Concrete Sawing",
+      "Wall Sawing",
+      "Concrete Removal"
+    ],
+    "items": [
+      {
+        "src": "https://i.imgur.com/Kj9zT9I.png",
+        "alt": "Bayani Concrete Cutting Truck",
+        "title": "Equipment Fleet",
+        "desc": "Our specialized concrete cutting vehicles"
+      },
+      {
+        "src": "https://i.imgur.com/KfJTJuP.png",
+        "alt": "Excavation Project",
+        "title": "Commercial Excavation",
+        "desc": "Utility line installation project"
+      },
+      {
+        "src": "https://i.imgur.com/YmJeJLb.png",
+        "alt": "Construction Equipment",
+        "title": "Demolition Equipment",
+        "desc": "Mini excavator for concrete removal"
+      },
+      {
+        "src": "https://i.imgur.com/znOJLWu.png",
+        "alt": "Concrete Removal",
+        "title": "Parking Lot Repair",
+        "desc": "Precision concrete cutting and removal"
+      },
+      {
+        "src": "https://i.imgur.com/E36s2T7.png",
+        "alt": "Concrete Cutting Machine",
+        "title": "Concrete Saw",
+        "desc": "Professional concrete cutting equipment"
+      },
+      {
+        "src": "https://i.imgur.com/VnfDBIa.png",
+        "alt": "Core Drilling Project",
+        "title": "Core Drilling",
+        "desc": "Commercial wall penetration project"
+      },
+      {
+        "src": "https://placehold.co/400x300",
+        "alt": "Wall Sawing",
+        "title": "Wall Sawing",
+        "desc": "Precision cutting for doorway installation"
+      },
+      {
+        "src": "https://placehold.co/400x300",
+        "alt": "Slab Sawing",
+        "title": "Slab Sawing",
+        "desc": "Roadway repair project"
+      },
+      {
+        "src": "https://placehold.co/400x300",
+        "alt": "Residential Project",
+        "title": "Residential Project",
+        "desc": "Basement window installation"
+      }
+    ],
+    "pagination": [1, 2, 3, "›"]
+  },
+  "cta": {
+    "backgroundImage": "https://placehold.co/1200x400",
+    "title": "Ready to Start Your Project?",
+    "text": "Contact us today for a free consultation and quote. Our team is ready to provide the professional concrete cutting services you need.",
+    "button": {
+      "text": "Get Your Free Quote",
+      "href": "/contact/"
+    }
+  }
+}

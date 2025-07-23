@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "About Us - Bayani Concrete Cutting & Core Drilling"
+  },
+  "pageHeader": {
+    "title": "About Bayani Concrete Cutting",
+    "description": "Learn about our story, our mission, and the dedicated team behind our quality services",
+    "backgroundImage": "https://placehold.co/1200x400"
+  },
+  "about": {
+    "sectionTitle": "Our Story",
+    "sectionSubtitle": "Over two decades of excellence in concrete cutting services",
+    "image": {
+      "src": "https://placehold.co/600x400",
+      "alt": "Bayani Concrete Cutting Team"
+    },
+    "heading": "Family-Owned Excellence Since 2003",
+    "paragraphs": [
+      "Bayani Concrete Cutting was founded by Manuel Bayani, a skilled craftsman with a vision to provide superior concrete cutting services with integrity and precision. What began as a small, family-owned operation has grown into one of the region's most trusted concrete cutting companies.",
+      "With over 20 years of industry experience, we've maintained our commitment to quality workmanship and customer satisfaction on every project. Our team has expanded, but our core values remain the same — reliability, precision, and dedication to exceeding client expectations.",
+      "Today, we serve a wide range of residential and commercial clients throughout Anytown and surrounding communities, bringing our expertise to projects of all sizes while maintaining the personalized service that has been our hallmark since day one."
+    ]
+  },
+  "values": {
+    "sectionTitle": "Our Values",
+    "sectionSubtitle": "The principles that guide everything we do",
+    "items": [
+      {
+        "icon": "M",
+        "title": "Our Mission",
+        "text": "To provide superior concrete cutting and core drilling services with integrity, precision, and professionalism, ensuring every project is completed on time, within budget, and to the highest standards of quality."
+      },
+      {
+        "icon": "V",
+        "title": "Our Vision",
+        "text": "To be the most trusted name in concrete cutting and core drilling in our service areas, known for our exceptional workmanship, innovative solutions, and unwavering commitment to customer satisfaction."
+      },
+      {
+        "icon": "C",
+        "title": "Our Commitment",
+        "text": "We are committed to safety, quality, and environmental responsibility on every job site. We invest in ongoing training for our team and use the most advanced equipment to deliver precise results while minimizing dust, noise, and disruption."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Work With Us?",
+    "text": "Contact our team today to discuss your concrete cutting needs and receive a free, no-obligation quote for your project.",
+    "button": {
+      "text": "Get Your Free Quote",
+      "href": "/contact"
+    },
+    "backgroundImage": "https://placehold.co/1200x400"
+  }
+}

@@ -1,0 +1,63 @@
+---
+layout: layouts/base.njk
+eleventyComputed:
+  title: "{{ gallery.meta.title }}"
+---
+
+<!-- Page Header -->
+<section class="bg-[url('{{ about.pageHeader.backgroundImage }}')] bg-cover bg-center text-white py-20">
+  <div class="max-w-7xl mx-auto px-4 text-center">
+    <h1 class="text-4xl font-bold mb-4">{{ about.pageHeader.title }}</h1>
+    <p class="text-lg">{{ about.pageHeader.description }}</p>
+  </div>
+</section>
+
+<!-- About Story -->
+<section id="about" class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold inline-block border-b-4 border-yellow-400 pb-2 mb-4">{{ about.about.sectionTitle }}</h2>
+      <p class="text-gray-600">{{ about.about.sectionSubtitle }}</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <div class="overflow-hidden rounded shadow-lg">
+        <img src="{{ about.about.image.src }}" alt="{{ about.about.image.alt }}" class="w-full h-full object-cover">
+      </div>
+      <div class="space-y-6">
+        <h3 class="text-2xl font-semibold">{{ about.about.heading }}</h3>
+        {% for para in about.about.paragraphs %}
+          <p class="text-gray-700">{{ para }}</p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Values -->
+<section id="values" class="py-20 bg-gray-100">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold inline-block border-b-4 border-yellow-400 pb-2 mb-4">{{ about.values.sectionTitle }}</h2>
+      <p class="text-gray-600">{{ about.values.sectionSubtitle }}</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {% for item in about.values.items %}
+        <div class="bg-white p-8 rounded-lg shadow hover:shadow-lg transition">
+          <div class="w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center mx-auto text-black text-2xl font-bold mb-4">{{ item.icon }}</div>
+          <h3 class="text-xl font-semibold mb-2 text-center">{{ item.title }}</h3>
+          <p class="text-gray-700">{{ item.text }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Call To Action -->
+<section id="cta" class="relative bg-[url('{{ about.cta.backgroundImage }}')] bg-cover bg-center py-20">
+  <div class="absolute inset-0 bg-black bg-opacity-75"></div>
+  <div class="relative max-w-7xl mx-auto px-4 text-center text-white">
+    <h2 class="text-3xl font-bold mb-4">{{ about.cta.title }}</h2>
+    <p class="text-lg mb-6">{{ about.cta.button.text }}</p>
+    <a href="{{ about.cta.button.href }}" class="bg-yellow-400 text-black font-bold px-6 py-3 rounded hover:bg-yellow-300 transition">{{ about.cta.button.text }}</a>
+  </div>
+</section>

@@ -1,0 +1,67 @@
+<div id="contact-form" class="bg-gray-100 p-6 rounded-lg shadow">
+  <h3 class="text-2xl font-semibold mb-6">{{ contact.contactSection.form.title }}</h3>
+
+  <form
+    name="contact"
+    method="POST"
+    data-netlify="true"
+    netlify-honeypot="bot-field"
+    action="/thank-you"
+    class="space-y-4"
+  >
+    <!-- Tell Netlify which form this is -->
+    <input type="hidden" name="form-name" value="contact" />
+
+    <!-- Honeypot to catch bots -->
+    <p hidden>
+      <label>
+        Don’t fill this out if you’re human:
+        <input name="bot-field" />
+      </label>
+    </p>
+
+    {% for field in contact.contactSection.form.fields %}
+      <div>
+        <label for="{{ field.id }}" class="block font-medium mb-1">{{ field.label }}</label>
+
+        {% if field.type == 'textarea' %}
+          <textarea
+            id="{{ field.id }}"
+            name="{{ field.name }}"
+            required
+            class="w-full border border-gray-300 rounded p-2"
+            rows="4"
+          ></textarea>
+
+        {% elif field.type == 'select' %}
+          <select
+            id="{{ field.id }}"
+            name="{{ field.name }}"
+            required
+            class="w-full border border-gray-300 rounded p-2"
+          >
+            {% for opt in field.options %}
+              <option value="{{ opt.value }}">{{ opt.label }}</option>
+            {% endfor %}
+          </select>
+
+        {% else %}
+          <input
+            type="{{ field.type }}"
+            id="{{ field.id }}"
+            name="{{ field.name }}"
+            required
+            class="w-full border border-gray-300 rounded p-2"
+          />
+        {% endif %}
+      </div>
+    {% endfor %}
+
+    <button
+      type="submit"
+      class="bg-yellow-400 text-black font-bold px-6 py-3 rounded hover:bg-yellow-300 transition"
+    >
+      {{ contact.contactSection.form.submitText }}
+    </button>
+  </form>
+</div>

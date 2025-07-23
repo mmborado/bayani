@@ -1,0 +1,70 @@
+---
+layout: layouts/base.njk
+eleventyComputed:
+  title: "{{ gallery.meta.title }}"
+---
+
+<!-- Page Header -->
+<section class="bg-[url('{{ gallery.pageHeader.backgroundImage }}')] bg-cover bg-center text-white py-20">
+  <div class="max-w-7xl mx-auto px-4">
+    <nav class="text-yellow-400 text-sm mb-4">
+      {% for crumb in gallery.pageHeader.breadcrumbs %}
+        {% if crumb.url %}
+          <a href="{{ crumb.url }}" class="hover:underline">{{ crumb.label }}</a>
+        {% else %}
+          <span>{{ crumb.label }}</span>
+        {% endif %}
+        {% if not loop.last %}<span class="mx-2">›</span>{% endif %}
+      {% endfor %}
+    </nav>
+    <h1 class="text-4xl font-bold">{{ gallery.pageHeader.title }}</h1>
+    <p class="mt-2 text-lg">{{ gallery.pageHeader.subtitle }}</p>
+  </div>
+</section>
+
+<!-- Gallery Section -->
+<section class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold inline-block border-b-4 border-yellow-400 pb-2">{{ gallery.gallery.sectionTitle }}</h2>
+      <p class="mt-4 text-gray-600">{{ gallery.gallery.sectionSubtitle }}</p>
+    </div>
+
+    <!-- Filters -->
+    <div class="flex flex-wrap justify-center gap-3 mb-8">
+      {% for filter in gallery.gallery.filters %}
+        <button class="px-4 py-2 rounded-full font-semibold transition {% if loop.first %}bg-yellow-400 text-black{% else %}bg-gray-200 text-gray-800 hover:bg-yellow-400 hover:text-black{% endif %}">{{ filter }}</button>
+      {% endfor %}
+    </div>
+
+    <!-- Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {% for item in gallery.gallery.items %}
+        <div class="relative overflow-hidden rounded-lg shadow-lg h-72 group">
+          <img src="{{ item.src }}" alt="{{ item.alt }}" class="w-full h-full object-cover transform transition-transform group-hover:scale-105">
+          <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-end p-4 translate-y-full transition-transform group-hover:translate-y-0">
+            <h3 class="text-white text-xl font-semibold">{{ item.title }}</h3>
+            <p class="text-gray-200 mt-1 text-sm">{{ item.desc }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- Pagination -->
+    <div class="flex justify-center mt-12 space-x-3">
+      {% for num in gallery.gallery.pagination %}
+        <a href="#" class="w-10 h-10 flex items-center justify-center rounded {% if loop.first %}bg-yellow-400 text-black{% else %}bg-gray-200 text-gray-800 hover:bg-yellow-400 hover:text-black{% endif %}">{{ num }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Call to Action -->
+<section class="relative bg-[url('{{ gallery.cta.backgroundImage }}')] bg-cover bg-center py-20">
+  <div class="absolute inset-0 bg-black bg-opacity-75"></div>
+  <div class="relative max-w-7xl mx-auto px-4 text-center text-white">
+    <h2 class="text-3xl font-bold mb-4">{{ gallery.cta.title }}</h2>
+    <p class="text-lg mb-6">{{ gallery.cta.text }}</p>
+    <a href="{{ gallery.cta.button.href }}" class="inline-block bg-yellow-400 text-black font-bold px-6 py-3 rounded hover:bg-yellow-300 transition">{{ gallery.cta.button.text }}</a>
+  </div>
+</section>

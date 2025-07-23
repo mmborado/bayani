@@ -1,0 +1,80 @@
+{
+  "header": {
+    "breadcrumb": [{ "name": "Home", "url": "/" }, { "name": "Services" }],
+    "title": "Our Concrete Cutting Services",
+    "subtitle": "Professional concrete cutting solutions for residential and commercial projects"
+  },
+  "services": [
+    {
+      "title": "Core Drilling",
+      "description": "Bayani Concrete Cutting provides precise core drilling services for a wide range of applications. Our state-of-the-art equipment enables us to create clean, accurate holes in concrete with minimal noise and dust. We can drill holes from 1/2 inch to 36 inches in diameter through concrete floors, walls, and ceilings for various utility penetrations.",
+      "image": "https://placehold.co/600x400",
+      "features": [
+        "Plumbing pipe penetrations",
+        "Electrical conduit holes",
+        "HVAC duct openings",
+        "Communication cable routing",
+        "Anchoring systems",
+        "Test sample extraction"
+      ]
+    },
+    {
+      "title": "Wall Sawing",
+      "description": "Wall sawing, also known as track sawing, is a technique used to create precise openings in concrete walls, floors, and ceilings. Our hydraulic wall saws can cut through reinforced concrete up to 24 inches thick. This method is ideal for creating clean, straight cuts with minimal vibration and disruption to the surrounding structure.",
+      "image": "https://placehold.co/600x400",
+      "features": [
+        "Door and window openings",
+        "HVAC access points",
+        "Elevator shaft creation",
+        "Stairwell openings",
+        "Precision demolition",
+        "Seismic retrofitting"
+      ]
+    },
+    {
+      "title": "Slab Sawing",
+      "description": "Slab sawing (flat sawing) is used for horizontal cutting of concrete slabs, bridge decks, and pavements. Our powerful flat saws can cut through reinforced concrete up to 24 inches deep with high precision. This technique is essential for creating expansion joints, removing damaged sections, or preparing areas for new construction.",
+      "image": "https://placehold.co/600x400",
+      "features": [
+        "Concrete removal for plumbing repairs",
+        "Expansion joint creation",
+        "Asphalt cutting",
+        "Decorative cutting",
+        "Floor renovation preparation",
+        "Roadway and sidewalk repair"
+      ]
+    },
+    {
+      "title": "Wire Sawing",
+      "description": "Wire sawing is an advanced technique used for cutting through heavily reinforced concrete structures of any size or thickness. This method uses a diamond-impregnated wire that can access areas where traditional saws cannot reach. Perfect for large-scale removals and complex structures, our wire sawing service provides clean cuts with minimal vibration.",
+      "image": "https://placehold.co/600x400",
+      "features": [
+        "Bridge section removal",
+        "Thick concrete wall cutting",
+        "Underwater cutting applications",
+        "Pile cutting",
+        "Nuclear facility modifications",
+        "Limited access area cutting"
+      ]
+    },
+    {
+      "title": "Concrete Removal",
+      "description": "Bayani Concrete Cutting provides efficient concrete removal services for various renovation and construction projects. Our team expertly removes concrete slabs, walls, foundations, and other structures while minimizing disruption. We combine our cutting techniques with specialized equipment to safely remove concrete sections after cutting.",
+      "image": "https://placehold.co/600x400",
+      "features": [
+        "Concrete slab removal",
+        "Foundation demolition",
+        "Structural renovation",
+        "Selective concrete removal",
+        "Stairway and ramp removal",
+        "Load-out and disposal services"
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "Need Expert Concrete Cutting Services?",
+    "text": "Whatever your concrete cutting requirements, Bayani Concrete Cutting has the expertise, equipment, and experience to deliver exceptional results. Contact us today to discuss your project and receive a free, no-obligation quote.",
+    "buttonText": "Get Your Free Quote",
+    "buttonUrl": "#contact"
+  }
+}

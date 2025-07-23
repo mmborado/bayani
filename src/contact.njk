@@ -1,0 +1,52 @@
+---
+layout: layouts/base.njk
+eleventyComputed:
+  title: "{{ contact.meta.title }}"
+---
+
+<!-- Page Header -->
+<section class="bg-[url('{{ contact.pageHeader.backgroundImage }}')] bg-cover bg-center text-white py-20">
+  <div class="max-w-7xl mx-auto px-4 text-center">
+    <h1 class="text-4xl font-bold mb-4">{{ contact.pageHeader.title }}</h1>
+    <p class="text-lg">{{ contact.pageHeader.subtitle }}</p>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold mb-2">{{ contact.contactSection.sectionTitle }}</h2>
+      <p class="text-gray-600">{{ contact.contactSection.sectionSubtitle }}</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+      <!-- Info Boxes -->
+      <div class="space-y-6">
+        {% for box in contact.contactSection.infoBoxes %}
+          <div class="flex items-start bg-gray-100 p-6 rounded-lg shadow">
+            <div class="text-2xl mr-4">{{ box.icon }}</div>
+            <div>
+              <h4 class="font-semibold mb-1">{{ box.title }}</h4>
+              {% for line in box.lines %}
+                <p class="text-gray-700">{{ line }}</p>
+              {% endfor %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <!-- Form -->
+        {% include "components/contact-form.njk" %}
+
+    </div>
+  </div>
+</section>
+
+<!-- Map Section -->
+<section class="py-16 bg-gray-100">
+  <div class="max-w-7xl mx-auto px-4 text-center">
+    <h2 class="text-3xl font-bold mb-2">{{ contact.mapSection.sectionTitle }}</h2>
+    <p class="text-gray-600 mb-6">{{ contact.mapSection.sectionSubtitle }}</p>
+    <img src="{{ contact.mapSection.mapImage }}" alt="Map" class="w-full h-64 object-cover rounded-lg shadow" />
+  </div>
+</section>
+```

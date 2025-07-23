@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Contact Us"
+  },
+  "pageHeader": {
+    "backgroundImage": "https://placehold.co/1200x400",
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team for all your concrete cutting and core drilling needs"
+  },
+  "contactSection": {
+    "sectionTitle": "Get In Touch",
+    "sectionSubtitle": "We're here to answer your questions and provide the solutions you need",
+    "infoBoxes": [
+      {
+        "icon": "📞",
+        "title": "Phone",
+        "lines": ["555-123-4567", "Monday-Friday: 7am-5pm"]
+      },
+      {
+        "icon": "✉️",
+        "title": "Email",
+        "lines": ["info@test.com", "quotes@test.com"]
+      },
+      {
+        "icon": "📍",
+        "title": "Address",
+        "lines": ["1234 Industrial Parkway", "Anytown, USA 12345"]
+      },
+      {
+        "icon": "⏱️",
+        "title": "Business Hours",
+        "lines": ["Monday-Friday: 7am-5pm", "Saturday-Sunday: Closed"]
+      }
+    ],
+    "form": {
+      "title": "Request A Quote",
+      "action": "#",
+      "method": "post",
+      "fields": [
+        {
+          "type": "text",
+          "id": "name",
+          "name": "name",
+          "label": "Full Name",
+          "required": true
+        },
+        {
+          "type": "email",
+          "id": "email",
+          "name": "email",
+          "label": "Email Address",
+          "required": true
+        },
+        {
+          "type": "tel",
+          "id": "phone",
+          "name": "phone",
+          "label": "Phone Number",
+          "required": true
+        },
+        {
+          "type": "select",
+          "id": "service",
+          "name": "service",
+          "label": "Service Needed",
+          "required": true,
+          "options": [
+            { "value": "", "label": "Select a Service" },
+            { "value": "Core Drilling", "label": "Core Drilling" },
+            { "value": "Concrete Sawing", "label": "Concrete Sawing" },
+            { "value": "Concrete Removal", "label": "Concrete Removal" },
+            { "value": "Slab Sawing", "label": "Slab Sawing" },
+            { "value": "Wall Sawing", "label": "Wall Sawing" },
+            { "value": "Wire Sawing", "label": "Wire Sawing" },
+            { "value": "Other", "label": "Other (Please specify)" }
+          ]
+        },
+        {
+          "type": "textarea",
+          "id": "message",
+          "name": "message",
+          "label": "Project Details",
+          "required": true
+        }
+      ],
+      "submitText": "Submit Request"
+    }
+  },
+  "mapSection": {
+    "sectionTitle": "Our Location",
+    "sectionSubtitle": "Find us at our convenient location in Anytown",
+    "mapImage": "https://placehold.co/1200x400"
+  }
+}
