@@ -1,7 +1,6 @@
 // .eleventy.js
 const { execSync } = require("child_process");
 const { DateTime } = require("luxon");
-
 module.exports = function (eleventyConfig) {
   // Watch your Tailwind entry
   eleventyConfig.addWatchTarget("src/styles/style.css");
@@ -15,6 +14,7 @@ module.exports = function (eleventyConfig) {
   // (Plus any other static assets)
   eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("src/fonts");
+  eleventyConfig.addPassthroughCopy({ "src/scripts": "scripts" });
 
   eleventyConfig.addFilter("date", (value, format = "yyyy") => {
     return DateTime.fromJSDate(new Date(value)).toFormat(format);

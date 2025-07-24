@@ -1,22 +1,27 @@
 [
   {
     "name": "Home",
-    "url": "/"
+    "url": "/",
+    "slug": ""
   },
   {
     "name": "Services",
-    "url": "/services/"
+    "url": "/services/",
+    "slug": "services"
   },
   {
     "name": "About Us",
-    "url": "/about/"
+    "url": "/about/",
+    "slug": "about"
   },
   {
     "name": "Gallery",
-    "url": "/gallery/"
+    "url": "/gallery/",
+    "slug": "gallery"
   },
   {
     "name": "Contact",
-    "url": "/contact/"
+    "url": "/contact/",
+    "slug": "contact"
   }
 ]
