@@ -65,13 +65,13 @@
           "required": true,
           "options": [
             { "value": "", "label": "Select a Service" },
-            { "value": "Core Drilling", "label": "Core Drilling" },
-            { "value": "Concrete Sawing", "label": "Concrete Sawing" },
-            { "value": "Concrete Removal", "label": "Concrete Removal" },
-            { "value": "Slab Sawing", "label": "Slab Sawing" },
-            { "value": "Wall Sawing", "label": "Wall Sawing" },
-            { "value": "Wire Sawing", "label": "Wire Sawing" },
-            { "value": "Other", "label": "Other (Please specify)" }
+            { "value": "core drilling", "label": "Core Drilling" },
+            { "value": "concrete sawing", "label": "Concrete Sawing" },
+            { "value": "concrete removal", "label": "Concrete Removal" },
+            { "value": "slab sawing", "label": "Slab Sawing" },
+            { "value": "wall sawing", "label": "Wall Sawing" },
+            { "value": "wire sawing", "label": "Wire Sawing" },
+            { "value": "other", "label": "Other (Please specify)" }
           ]
         },
         {

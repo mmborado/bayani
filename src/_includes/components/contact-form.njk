@@ -42,7 +42,7 @@
             class="w-full border border-gray-300 rounded p-2"
           >
             {% for opt in field.options %}
-              <option value="{{ opt.value }}">{{ opt.label }}</option>
+              <option value="{{ opt.value }}" {% if opt.value === '' %} disabled selected {% endif %}>{{ opt.label }}</option>
             {% endfor %}
           </select>
 

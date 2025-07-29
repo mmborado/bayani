@@ -58,9 +58,26 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   }
 
-  // auto-close on desktop resize
   const onDesktop = () => {
     if (window.innerWidth >= 768) closeNav();
   };
   window.addEventListener("resize", debounce(onDesktop));
+
+  const form = document.querySelector('form[name="contact"]');
+  if (!form) return;
+
+  const select = form.querySelector('select[name="service"]');
+  if (!select) return;
+
+  const params = new URLSearchParams(window.location.search);
+  const preset = params.get("service");
+  if (!preset) return;
+
+  if (
+    Array.from(select.options).some(
+      (o) => o.value === preset.replaceAll("-", " ")
+    )
+  ) {
+    select.value = preset.replaceAll("-", " ");
+  }
 });
