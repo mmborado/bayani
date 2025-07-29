@@ -4,12 +4,10 @@
   },
   "pageHeader": {
     "backgroundImage": "https://placehold.co/1200x400",
-    "title": "Our Project Gallery",
+    "title": "Project Gallery",
     "subtitle": "See examples of our professional concrete cutting and core drilling work"
   },
   "gallery": {
-    "sectionTitle": "Project Gallery",
-    "sectionSubtitle": "Browse through our portfolio of completed projects",
     "filters": [
       "All Projects",
       "Core Drilling",
@@ -72,8 +70,7 @@
         "title": "Residential Project",
         "desc": "Basement window installation"
       }
-    ],
-    "pagination": [1, 2, 3, "›"]
+    ]
   },
   "cta": {
     "backgroundImage": "https://placehold.co/1200x400",

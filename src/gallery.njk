@@ -7,25 +7,13 @@ slug: gallery
 
 <!-- Page Header -->
 {% from "components/pageheader.njk" import pageHeader %}
-{{ pageHeader(services.pageHeader) }}
+{{ pageHeader(gallery.pageHeader) }}
 
 <!-- Gallery Section -->
 <section class="py-16 bg-white">
   <div class="max-w-7xl mx-auto px-4">
-    <div class="text-center mb-12">
-      <h2 class="text-3xl font-bold inline-block border-b-4 border-yellow-400 pb-2">{{ gallery.gallery.sectionTitle }}</h2>
-      <p class="mt-4 text-gray-600">{{ gallery.gallery.sectionSubtitle }}</p>
-    </div>
-
-    <!-- Filters -->
-    <div class="flex flex-wrap justify-center gap-3 mb-8">
-      {% for filter in gallery.gallery.filters %}
-        <button class="px-4 py-2 rounded-full font-semibold transition {% if loop.first %}bg-yellow-400 text-black{% else %}bg-gray-200 text-gray-800 hover:bg-yellow-400 hover:text-black{% endif %}">{{ filter }}</button>
-      {% endfor %}
-    </div>
-
     <!-- Grid -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
       {% for item in gallery.gallery.items %}
         <div class="relative overflow-hidden rounded-lg shadow-lg h-72 group">
           <img src="{{ item.src }}" alt="{{ item.alt }}" class="w-full h-full object-cover transform transition-transform group-hover:scale-105">
@@ -39,8 +27,9 @@ slug: gallery
 
     <!-- Pagination -->
     <div class="flex justify-center mt-12 space-x-3">
-      {% for num in gallery.gallery.pagination %}
-        <a href="#" class="w-10 h-10 flex items-center justify-center rounded {% if loop.first %}bg-yellow-400 text-black{% else %}bg-gray-200 text-gray-800 hover:bg-yellow-400 hover:text-black{% endif %}">{{ num }}</a>
+      {% set max = ((gallery.gallery.items | length) / 6) | round(0, "ceil") %}
+      {% for i in range(0, max) %}
+        <a href="#" class="w-10 h-10 flex items-center justify-center rounded {% if loop.first %}bg-yellow-400 text-black{% else %}bg-gray-200 text-gray-800 hover:bg-yellow-400 hover:text-black{% endif %}">{{ i + 1 }}</a>
       {% endfor %}
     </div>
   </div>
