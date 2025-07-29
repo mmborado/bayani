@@ -4,12 +4,10 @@
   },
   "pageHeader": {
     "backgroundImage": "https://placehold.co/1200x400",
-    "title": "Contact Us",
-    "subtitle": "Get in touch with our team for all your concrete cutting and core drilling needs"
+    "title": "Get In Touch",
+    "subtitle": "We're here to answer your questions and provide the solutions you need"
   },
   "contactSection": {
-    "sectionTitle": "Get In Touch",
-    "sectionSubtitle": "We're here to answer your questions and provide the solutions you need",
     "infoBoxes": [
       {
         "icon": "📞",
