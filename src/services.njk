@@ -2,6 +2,9 @@
 layout: layouts/base.njk
 title: Services
 slug: services
+eleventyComputed:
+  title: "{{ services.meta.title }}"
+  description: "{{ services.meta.description}}" 
 ---
 
 <!-- Page Header -->

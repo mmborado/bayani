@@ -1,6 +1,7 @@
 {
   "meta": {
-    "title": "Our Project Gallery"
+    "title": "Project Gallery",
+    "description": ""
   },
   "pageHeader": {
     "backgroundImage": "https://placehold.co/1200x400",

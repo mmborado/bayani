@@ -2,6 +2,9 @@
 layout: layouts/base.njk
 title: Home
 slug: ''
+eleventyComputed:
+  title: "{{ homepage.meta.title }}"
+  description: "{{ homepage.meta.description}}" 
 ---
 {% set data = homepage %}
 
