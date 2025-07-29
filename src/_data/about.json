@@ -3,13 +3,11 @@
     "title": "About Us - Bayani Concrete Cutting & Core Drilling"
   },
   "pageHeader": {
-    "title": "About Bayani Concrete Cutting",
-    "subtitle": "Learn about our story, our mission, and the dedicated team behind our quality servicesfefef",
+    "title": "Our Story",
+    "subtitle": "Over two decades of excellence in concrete cutting services",
     "backgroundImage": "https://placehold.co/1200x400"
   },
   "about": {
-    "sectionTitle": "Our Story",
-    "sectionSubtitle": "Over two decades of excellence in concrete cutting services",
     "image": {
       "src": "https://placehold.co/600x400",
       "alt": "Bayani Concrete Cutting Team"
