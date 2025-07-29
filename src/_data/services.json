@@ -1,8 +1,8 @@
 {
-  "header": {
-    "breadcrumb": [{ "name": "Home", "url": "/" }, { "name": "Services" }],
+  "pageHeader": {
     "title": "Our Concrete Cutting Services",
-    "subtitle": "Professional concrete cutting solutions for residential and commercial projects"
+    "subtitle": "Professional concrete cutting solutions for residential and commercial projects",
+    "backgroundImage": "https://placehold.co/1200x400"
   },
   "services": [
     {
@@ -75,6 +75,6 @@
     "heading": "Need Expert Concrete Cutting Services?",
     "text": "Whatever your concrete cutting requirements, Bayani Concrete Cutting has the expertise, equipment, and experience to deliver exceptional results. Contact us today to discuss your project and receive a free, no-obligation quote.",
     "buttonText": "Get Your Free Quote",
-    "buttonUrl": "#contact"
+    "buttonUrl": "/contact"
   }
 }

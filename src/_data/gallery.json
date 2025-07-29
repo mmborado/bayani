@@ -4,10 +4,6 @@
   },
   "pageHeader": {
     "backgroundImage": "https://placehold.co/1200x400",
-    "breadcrumbs": [
-      { "label": "Home", "url": "/" },
-      { "label": "Gallery", "url": null }
-    ],
     "title": "Our Project Gallery",
     "subtitle": "See examples of our professional concrete cutting and core drilling work"
   },

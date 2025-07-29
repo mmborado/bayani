@@ -4,27 +4,14 @@ title: Services
 slug: services
 ---
 
-{% set data = services %}
-
 <!-- Page Header -->
-<section class="bg-gray-100 py-8">
-  <div class="max-w-[1200px] min-h-[200px] mx-auto px-5">
-    <nav class="text-gray-600 text-sm mb-2">
-      <a href="/" class="hover:text-blue-700">Home</a>
-      <span class="mx-2">›</span>
-      <span class="font-semibold">Services</span>
-    </nav>
-    <h1 class="text-4xl font-bold mb-4">Our Concrete Cutting Services</h1>
-    <p class="text-gray-700">
-      Professional concrete cutting solutions for residential and commercial projects
-    </p>
-  </div>
-</section>
+{% from "components/pageheader.njk" import pageHeader %}
+{{ pageHeader(services.pageHeader) }}
 
 <!-- Services Content -->
 <section class="py-16 bg-white">
   <div class="max-w-[1200px] mx-auto px-5 space-y-12">
-    {% for service in data.services %}
+    {% for service in services.services %}
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
       <div class="overflow-hidden rounded-lg shadow-lg">
         <img
@@ -58,15 +45,15 @@ slug: services
 <!-- General Service CTA -->
 <section class="py-16 bg-gray-50">
   <div class="max-w-[800px] mx-auto px-5 text-center">
-    <h2 class="text-3xl font-bold mb-4">Need Expert Concrete Cutting Services?</h2>
+    <h2 class="text-3xl font-bold mb-4">{{services.cta.heading}}</h2>
     <p class="text-gray-700 mb-6">
-      Whatever your concrete cutting requirements, Bayani Concrete Cutting has the expertise, equipment, and experience to deliver exceptional results. Contact us today to discuss your project and receive a free, no-obligation quote.
+      {{ services.cta.text}}
     </p>
     <a
-      href="#contact"
+      href="{{services.cta.buttonUrl}}"
       class="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-800 transition"
     >
-      Get Your Free Quote
+      {{ services.cta.buttonText }}
     </a>
   </div>
 </section>

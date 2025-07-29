@@ -6,22 +6,8 @@ slug: gallery
 ---
 
 <!-- Page Header -->
-<section class="bg-[url('{{ gallery.pageHeader.backgroundImage }}')] bg-cover bg-center text-white py-20">
-  <div class="max-w-7xl mx-auto px-4">
-    <nav class="text-yellow-400 text-sm mb-4">
-      {% for crumb in gallery.pageHeader.breadcrumbs %}
-        {% if crumb.url %}
-          <a href="{{ crumb.url }}" class="hover:underline">{{ crumb.label }}</a>
-        {% else %}
-          <span>{{ crumb.label }}</span>
-        {% endif %}
-        {% if not loop.last %}<span class="mx-2">›</span>{% endif %}
-      {% endfor %}
-    </nav>
-    <h1 class="text-4xl font-bold">{{ gallery.pageHeader.title }}</h1>
-    <p class="mt-2 text-lg">{{ gallery.pageHeader.subtitle }}</p>
-  </div>
-</section>
+{% from "components/pageheader.njk" import pageHeader %}
+{{ pageHeader(services.pageHeader) }}
 
 <!-- Gallery Section -->
 <section class="py-16 bg-white">

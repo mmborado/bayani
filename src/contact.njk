@@ -6,12 +6,8 @@ slug: contact
 ---
 
 <!-- Page Header -->
-<section class="bg-[url('{{ contact.pageHeader.backgroundImage }}')] bg-cover bg-center text-white py-20">
-  <div class="max-w-7xl mx-auto px-4 text-center">
-    <h1 class="text-4xl font-bold mb-4">{{ contact.pageHeader.title }}</h1>
-    <p class="text-lg">{{ contact.pageHeader.subtitle }}</p>
-  </div>
-</section>
+{% from "components/pageheader.njk" import pageHeader %}
+{{ pageHeader(contact.pageHeader) }}
 
 <!-- Contact Section -->
 <section class="py-16 bg-white">

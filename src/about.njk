@@ -1,17 +1,13 @@
 ---
 layout: layouts/base.njk
 eleventyComputed:
-  title: "{{ gallery.meta.title }}"
+  title: "{{ about.meta.title }}"
 slug: about
 ---
 
 <!-- Page Header -->
-<section class="bg-[url('{{ about.pageHeader.backgroundImage }}')] bg-cover bg-center text-white py-20">
-  <div class="max-w-7xl mx-auto px-4 text-center">
-    <h1 class="text-4xl font-bold mb-4">{{ about.pageHeader.title }}</h1>
-    <p class="text-lg">{{ about.pageHeader.description }}</p>
-  </div>
-</section>
+{% from "components/pageheader.njk" import pageHeader %}
+{{ pageHeader(about.pageHeader) }}
 
 <!-- About Story -->
 <section id="about" class="py-20 bg-white">
