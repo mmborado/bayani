@@ -74,7 +74,10 @@
   "cta": {
     "heading": "Need Expert Concrete Cutting Services?",
     "text": "Whatever your concrete cutting requirements, Bayani Concrete Cutting has the expertise, equipment, and experience to deliver exceptional results. Contact us today to discuss your project and receive a free, no-obligation quote.",
-    "buttonText": "Get Your Free Quote",
-    "buttonUrl": "/contact"
+    "button": {
+      "label": "Get Your Free Quote",
+      "url": "/contact"
+    },
+    "backgroundImage": "https://placehold.co/1200x400"
   }
 }

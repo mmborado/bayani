@@ -43,11 +43,11 @@
     ]
   },
   "cta": {
-    "title": "Ready to Work With Us?",
+    "heading": "Ready to Work With Us?",
     "text": "Contact our team today to discuss your concrete cutting needs and receive a free, no-obligation quote for your project.",
     "button": {
-      "text": "Get Your Free Quote",
-      "href": "/contact"
+      "label": "Get Your Free Quote",
+      "url": "/contact"
     },
     "backgroundImage": "https://placehold.co/1200x400"
   }

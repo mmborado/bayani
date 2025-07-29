@@ -47,11 +47,5 @@ slug: gallery
 </section>
 
 <!-- Call to Action -->
-<section class="relative bg-[url('{{ gallery.cta.backgroundImage }}')] bg-cover bg-center py-20">
-  <div class="absolute inset-0 bg-black bg-opacity-75"></div>
-  <div class="relative max-w-7xl mx-auto px-4 text-center text-white">
-    <h2 class="text-3xl font-bold mb-4">{{ gallery.cta.title }}</h2>
-    <p class="text-lg mb-6">{{ gallery.cta.text }}</p>
-    <a href="{{ gallery.cta.button.href }}" class="inline-block bg-yellow-400 text-black font-bold px-6 py-3 rounded hover:bg-yellow-300 transition">{{ gallery.cta.button.text }}</a>
-  </div>
-</section>
+{% from "components/cta.njk" import cta %}
+{{  cta(gallery.cta) }}

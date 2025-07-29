@@ -77,11 +77,11 @@
   },
   "cta": {
     "backgroundImage": "https://placehold.co/1200x400",
-    "title": "Ready to Start Your Project?",
+    "heading": "Ready to Start Your Project?",
     "text": "Contact us today for a free consultation and quote. Our team is ready to provide the professional concrete cutting services you need.",
     "button": {
-      "text": "Get Your Free Quote",
-      "href": "/contact/"
+      "label": "Get Your Free Quote",
+      "url": "/contact/"
     }
   }
 }
