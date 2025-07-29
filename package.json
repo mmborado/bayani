@@ -6,12 +6,13 @@
     "start": "eleventy --serve",
     "watch:css": "npx tailwindcss -i src/styles/tailwind.css -o src/styles/style.css --watch",
     "serve": "eleventy --serve --watch --incremental",
-    "dev": "npm run watch:css & npm run serve"
+    "dev": "concurrently \"npm run watch:css\" \"npm run serve\""
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-img": "^6.0.4",
     "autoprefixer": "^10.4.21",
+    "concurrently": "^9.2.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
     "tailwindcss-grid-areas": "^0.1.1"
