@@ -1,9 +1,12 @@
 <header class="relative bg-black text-white">
   <div class="container mx-auto px-5">
-    <div class="grid grid-areas-header grid-col-2 py-4 md:pt-4 md:pb-0">
-      <a href="/" class="area-logo flex items-center space-x-3">
+    <div class="grid grid-areas-header grid-col-2 py-4 md:py-2">
+      <div class="area-logo flex items-center space-x-3">
+      <a href="/" >
         <img src="/images/logo.png" alt="{{ site.title }} Logo" class="h-[80px] mr-2">
       </a>
+      </div>
+
 
       <div class="area-cta flex md:flex-col items-center justify-between md:justify-center md:items-end pt-4 md:pt-0 border-t border-white md:border-none">
         <span class="text-yellow-400 text-md md:text-xl font-bold md:mb-1">
@@ -25,7 +28,7 @@
       </button>
       </div>
 
-    <nav class="area-nav mt-3 hidden md:block">
+    <nav class="area-nav hidden md:block">
       <ul class="flex flex-row justify-end py-2">
         {% for item in navigation %}
         {% set isActive = (item.slug == slug) %}
