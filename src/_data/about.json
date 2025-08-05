@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "About Us - Bayani Concrete Cutting & Core Drilling",
-    "description": ""
+    "title": "About Bayani Concrete Cutting | Serving All of Southern California",
+    "description": "Bayani Concrete Cutting has provided top-tier concrete cutting and core drilling from LA to San Diego. Learn how our family-run approach delivers safety, integrity & expertise."
   },
   "pageHeader": {
     "title": "Our Story",
-    "subtitle": "Over two decades of excellence in concrete cutting services",
+    "subtitle": "Where Quality Craftsmanship Meets Exceptional Service",
     "backgroundImage": "https://placehold.co/1200x400"
   },
   "about": {
@@ -13,11 +13,11 @@
       "src": "https://placehold.co/600x400",
       "alt": "Bayani Concrete Cutting Team"
     },
-    "heading": "Family-Owned Excellence Since 2003",
+    "heading": "25 Years of Concrete Excellence",
     "paragraphs": [
-      "Bayani Concrete Cutting was founded by Manuel Bayani, a skilled craftsman with a vision to provide superior concrete cutting services with integrity and precision. What began as a small, family-owned operation has grown into one of the region's most trusted concrete cutting companies.",
-      "With over 20 years of industry experience, we've maintained our commitment to quality workmanship and customer satisfaction on every project. Our team has expanded, but our core values remain the same — reliability, precision, and dedication to exceeding client expectations.",
-      "Today, we serve a wide range of residential and commercial clients throughout Anytown and surrounding communities, bringing our expertise to projects of all sizes while maintaining the personalized service that has been our hallmark since day one."
+      "At Bayani Concrete Cutting, we’ve been mastering every facet of the concrete industry for over 25 years. From residential driveways to large-scale commercial developments, our Filipino-rooted team pours, cuts, breaks, finishes, and designs with precision and passion.",
+      "Whether you need precision flat sawing, core drilling, wall saw cuts, or full-scale demolition, our experts handle all your concrete needs under one roof. We’re as comfortable working on a backyard patio as we are on a high-rise retrofit—always bringing the same commitment to quality and safety.",
+      "Integrity is at the heart of what we do. Doing business with us is a breath of fresh air—your word is your bond, and we stand by ours. We’re continuously learning and refining our skills, ensuring that every project benefits from the latest techniques and equipment. When you partner with Bayani, you get more than a contractor—you get a team that shows up prepared, responds 24/7, and treats your project like it’s our own."
     ]
   },
   "values": {
@@ -25,25 +25,22 @@
     "sectionSubtitle": "The principles that guide everything we do",
     "items": [
       {
-        "icon": "M",
-        "title": "Our Mission",
-        "text": "To provide superior concrete cutting and core drilling services with integrity, precision, and professionalism, ensuring every project is completed on time, within budget, and to the highest standards of quality."
+        "title": "Mission",
+        "text": "To deliver superior concrete cutting, coring, and site prep services across Southern California with integrity, precision, and professionalism—ensuring every project is completed on time, within budget, and to the highest standards."
       },
       {
-        "icon": "V",
-        "title": "Our Vision",
-        "text": "To be the most trusted name in concrete cutting and core drilling in our service areas, known for our exceptional workmanship, innovative solutions, and unwavering commitment to customer satisfaction."
+        "title": "Vision",
+        "text": "To be the most trusted partner in concrete cutting and core drilling—from Los Angeles to San Diego—renowned for our craftsmanship, innovative solutions, and unwavering dedication to customer satisfaction."
       },
       {
-        "icon": "C",
-        "title": "Our Commitment",
-        "text": "We are committed to safety, quality, and environmental responsibility on every job site. We invest in ongoing training for our team and use the most advanced equipment to deliver precise results while minimizing dust, noise, and disruption."
+        "title": "Commitment",
+        "text": "Committed to safety, quality, and environmental responsibility on every job site; we invest in ongoing training and advanced equipment to deliver precise results while minimizing dust, noise, and disruption."
       }
     ]
   },
   "cta": {
     "heading": "Ready to Work With Us?",
-    "text": "Contact our team today to discuss your concrete cutting needs and receive a free, no-obligation quote for your project.",
+    "text": "Reach out today for expert concrete cutting solutions and a complimentary, no-obligation estimate—tailored to your needs and delivered with precision.",
     "button": {
       "label": "Get Your Free Quote",
       "url": "/contact"

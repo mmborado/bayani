@@ -28,16 +28,14 @@ slug: about
 </section>
 
 <!-- Values -->
-<section id="values" class="py-20 bg-gray-100">
+<section id="values" class="py-14 bg-gray-100">
   <div class="max-w-7xl mx-auto px-4">
-    <div class="text-center mb-12">
-      <h2 class="text-3xl font-bold inline-block border-b-4 border-yellow-400 pb-2 mb-4">{{ about.values.sectionTitle }}</h2>
-      <p class="text-gray-600">{{ about.values.sectionSubtitle }}</p>
+    <div class="text-center mb-6">
+      <h2 class="text-3xl font-bold inline-block border-b-4 border-yellow-400 pb-2 mb-2">{{ about.values.sectionTitle }}</h2>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       {% for item in about.values.items %}
         <div class="bg-white p-8 rounded-lg shadow hover:shadow-lg transition">
-          <div class="w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center mx-auto text-black text-2xl font-bold mb-4">{{ item.icon }}</div>
           <h3 class="text-xl font-semibold mb-2 text-center">{{ item.title }}</h3>
           <p class="text-gray-700">{{ item.text }}</p>
         </div>
