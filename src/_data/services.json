@@ -51,6 +51,19 @@
       "href": "/contact/?service=wall-sawing"
     },
     {
+      "title": "Bobcat & Mini-Excavator",
+      "description": "Our Bobcat and mini-excavator services deliver precise concrete breaking, debris removal, grading, and site prep—perfect for driveways, patios, foundations, and material handling. We prioritize safety, efficiency, and clear communication to minimize disruption and keep your project on track. Backed by decades of site-prep expertise, our team ensures every job is completed on time and within budget.",
+      "image": "https://placehold.co/600x400",
+      "features": [
+        "Hydraulic concrete breaking",
+        "Debris loading & hauling",
+        "Site grading & leveling",
+        "Material relocation",
+        "Final cleanup & compaction"
+      ],
+      "href": "/contact/?service=bobcat-ex"
+    },
+    {
       "title": "Demolition",
       "description": "Combining precision slab sawing with hydraulic breakers and expert site prep, our demolition service safely and efficiently removes concrete slabs, foundations, walls, and other structures. We prioritize environmental responsibility and thorough cleanup, ensuring minimal disruption and a clear site ready for your next phase. Trust our seasoned team to deliver fast, reliable results with uncompromising safety and professionalism.",
       "image": "https://placehold.co/600x400",

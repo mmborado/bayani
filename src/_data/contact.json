@@ -65,12 +65,11 @@
           "required": true,
           "options": [
             { "value": "", "label": "Select a Service" },
-            { "value": "core drilling", "label": "Core Drilling" },
             { "value": "concrete sawing", "label": "Concrete Sawing" },
-            { "value": "concrete removal", "label": "Concrete Removal" },
-            { "value": "slab sawing", "label": "Slab Sawing" },
+            { "value": "core drilling", "label": "Core Drilling" },
+            { "value": "bobcat ex", "label": "Bobcat & Mini Excavator" },
             { "value": "wall sawing", "label": "Wall Sawing" },
-            { "value": "wire sawing", "label": "Wire Sawing" },
+            { "value": "demolotion", "label": "Demolotion" },
             { "value": "other", "label": "Other (Please specify)" }
           ]
         },

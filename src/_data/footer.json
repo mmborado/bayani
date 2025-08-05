@@ -6,7 +6,13 @@
   "services": {
     "title": "Our Services",
     "url": "/services",
-    "items": ["Concrete Sawing", "Core Drilling", "Wall Sawing", "Demolition"]
+    "items": [
+      "Concrete Sawing",
+      "Core Drilling",
+      "Bobcat & Mini-Excavator",
+      "Wall Sawing",
+      "Demolition"
+    ]
   },
   "contactInfo": {
     "title": "Contact Information",
