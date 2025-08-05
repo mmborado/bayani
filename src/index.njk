@@ -88,9 +88,9 @@ eleventyComputed:
        {{ data.gallery.description }}
       </p>
     </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6 ">
       {% for image in data.gallery.images %}
-      <div class="overflow-hidden rounded-lg shadow-lg">
+      <div class="overflow-hidden rounded-lg shadow-lg max-h-72">
         <img src="{{ image.src }}" alt="{{ image.alt }}" class="w-full h-full object-cover hover:scale-105 transition-transform" loading="lazy">
       </div>
       {% endfor %}
