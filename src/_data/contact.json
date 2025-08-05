@@ -69,7 +69,7 @@
             { "value": "core drilling", "label": "Core Drilling" },
             { "value": "bobcat ex", "label": "Bobcat & Mini Excavator" },
             { "value": "wall sawing", "label": "Wall Sawing" },
-            { "value": "demolotion", "label": "Demolotion" },
+            { "value": "demolition", "label": "Demolition" },
             { "value": "other", "label": "Other (Please specify)" }
           ]
         },
