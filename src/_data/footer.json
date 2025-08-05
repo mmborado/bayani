@@ -1,24 +1,17 @@
 {
   "aboutUs": {
     "title": "About Us",
-    "description": "Bayani Concrete Cutting is a full-service concrete cutting company with over 20 years of experience serving residential and commercial clients. We are committed to providing the highest quality service and customer satisfaction on every project, no matter the size."
+    "description": "With over 25 years of residential and commercial concrete expertise—from pouring and cutting to finishing and design—our Filipino-rooted team delivers integrity, innovation, and unmatched reliability."
   },
   "services": {
     "title": "Our Services",
     "url": "/services",
-    "items": [
-      "Core Drilling",
-      "Concrete Sawing",
-      "Concrete Removal",
-      "Slab Sawing",
-      "Wall Sawing",
-      "Wire Sawing"
-    ]
+    "items": ["Concrete Sawing", "Core Drilling", "Wall Sawing", "Demolition"]
   },
   "contactInfo": {
     "title": "Contact Information",
-    "phone": "555-123-4567",
-    "email": "info@test.com",
+    "phone": "714-855-8929",
+    "email": "info@bayaniconcretecutting.com",
     "address": "1234 Industrial Parkway, Anytown, USA 12345"
   }
 }
