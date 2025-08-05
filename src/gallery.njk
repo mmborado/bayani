@@ -27,12 +27,12 @@ slug: gallery
     </div>
 
     <!-- Pagination -->
-    <div class="flex justify-center mt-12 space-x-3">
+    {# <div class="flex justify-center mt-12 space-x-3">
       {% set max = ((gallery.gallery.items | length) / 6) | round(0, "ceil") %}
       {% for i in range(0, max) %}
         <a href="#" class="w-10 h-10 flex items-center justify-center rounded {% if loop.first %}bg-yellow-400 text-black{% else %}bg-gray-200 text-gray-800 hover:bg-yellow-400 hover:text-black{% endif %}">{{ i + 1 }}</a>
       {% endfor %}
-    </div>
+    </div> #}
   </div>
 </section>
 
