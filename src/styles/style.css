@@ -745,12 +745,28 @@ video {
   height: 500px;
 }
 
-.h-\[80px\] {
-  height: 80px;
-}
-
 .h-full {
   height: 100%;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.max-h-72 {
+  max-height: 18rem;
+}
+
+.max-h-full {
+  max-height: 100%;
+}
+
+.max-h-\[130px\] {
+  max-height: 130px;
+}
+
+.max-h-\[80px\] {
+  max-height: 80px;
 }
 
 .min-h-72 {
@@ -767,6 +783,10 @@ video {
 
 .w-6 {
   width: 1.5rem;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .w-full {
@@ -832,6 +852,10 @@ video {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-\[auto_1fr\] {
+  grid-template-columns: auto 1fr;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -846,6 +870,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.items-stretch {
+  align-items: stretch;
 }
 
 .justify-end {
@@ -1239,7 +1267,7 @@ video {
 
 @media (min-width: 768px) {
   .grid-areas-header {
-    grid-template-areas: "logo cta" "nav nav";
+    grid-template-areas: "logo cta" "logo nav";
   }
 }
 
@@ -1382,6 +1410,14 @@ video {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:max-h-\[120px\] {
+    max-height: 120px;
+  }
+
+  .md\:max-h-\[130px\] {
+    max-height: 130px;
   }
 
   .md\:grid-cols-2 {

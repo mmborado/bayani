@@ -9,7 +9,7 @@ module.exports = {
     gridAreas({
       header: {
         base: ["logo menu", "cta cta"],
-        md: ["logo cta", "nav nav"],
+        md: ["logo cta", "logo nav"],
       },
     }),
   ],
