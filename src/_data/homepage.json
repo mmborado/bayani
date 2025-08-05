@@ -1,59 +1,59 @@
 {
   "meta": {
-    "title": "Home",
-    "description": "With over 20 years of experience, we deliver the highest quality concrete cutting services for residential and commercial projects."
+    "title": "Bayani Concrete Cutting",
+    "description": "Serving all of Southern California—from Santa Barbara to the San Diego—Bayani Concrete Cutting delivers expert concrete cutting, coring, slab & wall sawing, and removal throughout LA, OC, the Inland Empire & San Diego. Get your free estimate today!"
   },
   "site": {
     "title": "Bayani Concrete Cutting",
-    "phone": "555-123-4567",
+    "phone": "714-855-8929",
     "year": 2025
   },
   "hero": {
-    "heading": "Professional Concrete Cutting & Core Drilling Services",
-    "subheading": "With over 20 years of experience, we deliver the highest quality concrete cutting services for residential and commercial projects.",
-    "ctaText": "Request A Quote Today",
-    "ctaUrl": "#contact",
+    "heading": "Southern California’s Trusted Concrete Cutting & Core Drilling Experts",
+    "subheading": "Serving Los Angeles, Orange County, San Bernardino County & San Diego County",
+    "ctaText": "Get Your Free Quote",
+    "ctaUrl": "/contact",
     "backgroundImage": "https://placehold.co/1200x500"
   },
   "services": {
     "title": "Our Services",
-    "description": "We provide a full range of concrete cutting, coring, and removal services",
+    "description": "From concrete sawing and core drilling to wall sawing and demolition, we’ve got your site prep covered.",
     "list": [
-      {
-        "title": "Core Drilling",
-        "description": "Precise core drilling for plumbing, electrical, HVAC and other utility penetrations in concrete walls, floors and ceilings.",
-        "image": "https://placehold.co/400x200"
-      },
       {
         "title": "Concrete Sawing",
         "description": "Professional concrete cutting for doorways, windows, and other openings with minimal dust and noise.",
         "image": "https://placehold.co/400x200"
       },
       {
-        "title": "Concrete Removal",
-        "description": "Efficient demolition and removal of concrete structures, slabs, and foundations for renovations or new construction.",
+        "title": "Core Drilling",
+        "description": "Precise core drilling for plumbing, electrical, HVAC and other utility penetrations in concrete walls, floors, roofs and ceilings.",
         "image": "https://placehold.co/400x200"
       },
       {
-        "title": "Slab Sawing",
-        "description": "Precision flat sawing for concrete floors, bridge decks, and pavements for repairs or modifications.",
+        "title": "Wall Saw",
+        "description": "Precision wall sawing to cut precise door, window, and seismic retrofit openings in concrete and masonry walls, preserving structural integrity.",
+        "image": "https://placehold.co/400x200"
+      },
+      {
+        "title": "Demolition",
+        "description": "Efficient demolition and removal of concrete structures, slabs, and foundations for renovations or new construction.",
         "image": "https://placehold.co/400x200"
       }
     ]
   },
   "features": {
     "title": "Why Choose Us",
-    "description": "What sets us apart from the competition",
+    "description": "Experience the Bayani Difference: Precision, Expertise & 24/7 Support",
     "list": [
       {
         "icon": "✓",
         "title": "Experienced Team",
-        "description": "Our team has over 20 years of experience in the concrete cutting industry, ensuring professional quality on every job."
+        "description": "Our team has over 25 years of experience in the concrete cutting industry, ensuring professional quality on every job."
       },
       {
         "icon": "✓",
-        "title": "State-of-the-Art Equipment",
-        "description": "We use only the best equipment and latest technology to deliver precise, clean cuts every time."
+        "title": "On Call 24/7",
+        "description": "Our team responds quickly to concrete cutting emergencies, minimizing downtime and keeping your project on schedule."
       },
       {
         "icon": "✓",
@@ -79,7 +79,7 @@
   },
   "gallery": {
     "title": "Our Work",
-    "description": "See samples of our concrete cutting and core drilling projects",
+    "description": "Explore Our Precision Concrete Cutting & Core Drilling Portfolio",
     "images": [
       { "src": "/images/1.jpg", "alt": "Bayani Concrete Cutting Truck" },
       { "src": "/images/2.jpg", "alt": "Excavation Project" },
@@ -90,8 +90,8 @@
     ]
   },
   "cta": {
-    "heading": "Ready to Start Your Project?",
-    "text": "Contact us today for a free consultation and quote. Our team is ready to provide the professional concrete cutting services you need.",
+    "heading": "Ready to Break Ground?",
+    "text": "Request your free consultation and detailed quote today—our expert team delivers precision concrete sawing, core drilling, wall sawing, and demolition across Southern California.",
     "button": {
       "label": "Get Your Free Quote",
       "url": "/contact"

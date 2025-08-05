@@ -11,7 +11,7 @@ eleventyComputed:
 <!-- Hero Section -->
 <section class="relative h-[500px] bg-center bg-cover" style="background-image:url('{{ data.hero.backgroundImage }}')">
   <div class="absolute inset-0 bg-black bg-opacity-70"></div>
-  <div class="relative z-10 max-w-3xl mx-auto px-5 text-center flex flex-col items-center justify-center h-full">
+  <div class="relative z-10 max-w-4xl mx-auto px-5 text-center flex flex-col items-center justify-center h-full">
     <h1 class="text-4xl md:text-5xl font-bold mb-6 drop-shadow-lg text-white">
       {{ data.hero.heading }}
     </h1>
@@ -19,7 +19,7 @@ eleventyComputed:
       {{ data.hero.subheading }}
     </p>
     <a href="{{ data.hero.ctaUrl }}"
-       class="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-800 transition">
+       class="bg-yellow-400 text-black px-5 py-3 font-bold rounded hover:bg-yellow-500 transition duration-300">
       {{ data.hero.ctaText }}
     </a>
   </div>
