@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Services",
-    "description": "With over 20 years of experience, we deliver the highest quality concrete cutting services for residential and commercial projects."
+    "title": "Concrete Cutting Services Southern California | Bayani Concrete Cutting",
+    "description": "Bayani Concrete Cutting offers full-service concrete cutting, coring, slab & wall sawing, and removal throughout Los Angeles, Orange County, Inland Empire & San Diego."
   },
   "pageHeader": {
     "title": "Our Concrete Cutting Services",
@@ -10,8 +10,22 @@
   },
   "services": [
     {
+      "title": "Concrete Sawing",
+      "description": "With over 25 years of expertise, our concrete sawing service delivers clean, precise horizontal and complex cuts across Southern California. By combining slab sawing and advanced wire sawing techniques, we handle expansion joints, removal of damaged sections, decorative cuts, and asphalt work with minimal dust and vibration. Our commitment to integrity, safety, and on-time delivery ensures your project stays on schedule and on budget.",
+      "image": "https://placehold.co/600x400",
+      "features": [
+        "Expansion joint creation",
+        "Damaged section removal",
+        "Decorative & asphalt cutting",
+        "Bridge section removal",
+        "Underwater & limited-access cutting",
+        "Pile cutting"
+      ],
+      "href": "/contact/?service=concrete-sawing"
+    },
+    {
       "title": "Core Drilling",
-      "description": "Bayani Concrete Cutting provides precise core drilling services for a wide range of applications. Our state-of-the-art equipment enables us to create clean, accurate holes in concrete with minimal noise and dust. We can drill holes from 1/2 inch to 36 inches in diameter through concrete floors, walls, and ceilings for various utility penetrations.",
+      "description": "Our core drilling team uses state-of-the-art equipment to create accurate, dust- and noise-minimized holes from ½\" to 36\" in diameter through floors, walls, and ceilings. Ideal for plumbing penetrations, electrical conduits, HVAC duct openings, anchoring systems, and more, we serve Los Angeles, Orange County, the Inland Empire, and San Diego with precision and professionalism. Backed by decades of experience and 24/7 responsiveness, we keep your project moving forward.",
       "image": "https://placehold.co/600x400",
       "features": [
         "Plumbing pipe penetrations",
@@ -25,59 +39,30 @@
     },
     {
       "title": "Wall Sawing",
-      "description": "Wall sawing, also known as track sawing, is a technique used to create precise openings in concrete walls, floors, and ceilings. Our hydraulic wall saws can cut through reinforced concrete up to 24 inches thick. This method is ideal for creating clean, straight cuts with minimal vibration and disruption to the surrounding structure.",
+      "description": "Our hydraulic wall sawing service creates precise vertical, overhead, and angled openings in concrete and masonry up to 24\" thick—perfect for doors, windows, elevator shafts, and seismic retrofit removal. We maintain structural integrity and minimize vibration and disruption to surrounding areas. With a focus on safety, quality, and clear communication, our team brings decades of cutting expertise to every job.",
       "image": "https://placehold.co/600x400",
       "features": [
-        "Door and window openings",
+        "Door & window cut-outs",
         "HVAC access points",
         "Elevator shaft creation",
         "Stairwell openings",
-        "Precision demolition",
-        "Seismic retrofitting"
+        "Precision demolition"
       ],
       "href": "/contact/?service=wall-sawing"
     },
     {
-      "title": "Slab Sawing",
-      "description": "Slab sawing (flat sawing) is used for horizontal cutting of concrete slabs, bridge decks, and pavements. Our powerful flat saws can cut through reinforced concrete up to 24 inches deep with high precision. This technique is essential for creating expansion joints, removing damaged sections, or preparing areas for new construction.",
-      "image": "https://placehold.co/600x400",
-      "features": [
-        "Concrete removal for plumbing repairs",
-        "Expansion joint creation",
-        "Asphalt cutting",
-        "Decorative cutting",
-        "Floor renovation preparation",
-        "Roadway and sidewalk repair"
-      ],
-      "href": "/contact/?service=slab-sawing"
-    },
-    {
-      "title": "Wire Sawing",
-      "description": "Wire sawing is an advanced technique used for cutting through heavily reinforced concrete structures of any size or thickness. This method uses a diamond-impregnated wire that can access areas where traditional saws cannot reach. Perfect for large-scale removals and complex structures, our wire sawing service provides clean cuts with minimal vibration.",
-      "image": "https://placehold.co/600x400",
-      "features": [
-        "Bridge section removal",
-        "Thick concrete wall cutting",
-        "Underwater cutting applications",
-        "Pile cutting",
-        "Nuclear facility modifications",
-        "Limited access area cutting"
-      ],
-      "href": "/contact/?service=wire-sawing"
-    },
-    {
-      "title": "Concrete Removal",
-      "description": "Bayani Concrete Cutting provides efficient concrete removal services for various renovation and construction projects. Our team expertly removes concrete slabs, walls, foundations, and other structures while minimizing disruption. We combine our cutting techniques with specialized equipment to safely remove concrete sections after cutting.",
+      "title": "Demolition",
+      "description": "Combining precision slab sawing with hydraulic breakers and expert site prep, our demolition service safely and efficiently removes concrete slabs, foundations, walls, and other structures. We prioritize environmental responsibility and thorough cleanup, ensuring minimal disruption and a clear site ready for your next phase. Trust our seasoned team to deliver fast, reliable results with uncompromising safety and professionalism.",
       "image": "https://placehold.co/600x400",
       "features": [
         "Concrete slab removal",
-        "Foundation demolition",
-        "Structural renovation",
+        "Foundation & structural demolition",
         "Selective concrete removal",
-        "Stairway and ramp removal",
-        "Load-out and disposal services"
+        "Stairway & ramp removal",
+        "Load-out & disposal services",
+        "Site cleanup & prep"
       ],
-      "href": "/contact/?service=concrete-removal"
+      "href": "/contact/?service=demolition"
     }
   ],
   "cta": {
