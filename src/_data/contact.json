@@ -13,12 +13,12 @@
       {
         "icon": "📞",
         "title": "Phone",
-        "lines": ["555-123-4567", "Monday-Friday: 7am-5pm"]
+        "lines": ["714-855-8929", "Monday-Friday: 7am-5pm"]
       },
       {
         "icon": "✉️",
         "title": "Email",
-        "lines": ["info@test.com", "quotes@test.com"]
+        "lines": ["info@bayaniconcretecutting.com"]
       },
       {
         "icon": "📍",
@@ -28,7 +28,7 @@
       {
         "icon": "⏱️",
         "title": "Business Hours",
-        "lines": ["Monday-Friday: 7am-5pm", "Saturday-Sunday: Closed"]
+        "lines": ["Monday-Sunday: 24/7"]
       }
     ],
     "form": {
