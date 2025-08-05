@@ -7,11 +7,26 @@
     "title": "Our Services",
     "url": "/services",
     "items": [
-      "Concrete Sawing",
-      "Core Drilling",
-      "Bobcat & Mini-Excavator",
-      "Wall Sawing",
-      "Demolition"
+      {
+        "label": "Concrete Sawing",
+        "urlPath": "/contact/?service=concrete-sawing"
+      },
+      {
+        "label": "Core Drilling",
+        "urlPath": "/contact/?service=core-drilling"
+      },
+      {
+        "label": "Bobcat & Mini-Excavator",
+        "urlPath": "/contact/?service=bobcat-ex"
+      },
+      {
+        "label": "Wall Sawing",
+        "urlPath": "/contact/?service=wall-sawing"
+      },
+      {
+        "label": "Demolition",
+        "urlPath": "/contact/?service=demolition"
+      }
     ]
   },
   "contactInfo": {

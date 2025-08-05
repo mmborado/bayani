@@ -17,7 +17,7 @@
         </h3>
         <ul class="space-y-2">
           {% for service in footer.services.items %}
-            <li><a href="{{footer.services.urlPath}}" class="text-gray-200 hover:text-yellow-400 transition">{{ service }}</a></li>
+            <li><a href="{{service.urlPath}}" class="text-gray-200 hover:text-yellow-400 transition">{{ service.label }}</a></li>
           {% endfor %}
         </ul>
       </div>
@@ -35,6 +35,6 @@
 
   </div>
     <div class="border-t border-gray-600 py-4 text-center text-gray-200">
-      &copy; {{ page.date | date("yyyy") }} Your Site. All rights reserved.
+      &copy; {{ page.date | date("yyyy") }} bayaniconcretecutting.com All rights reserved.
     </div>
 </footer>
