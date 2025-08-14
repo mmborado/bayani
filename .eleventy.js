@@ -1,7 +1,11 @@
 // .eleventy.js
 const { execSync } = require("child_process");
 const { DateTime } = require("luxon");
+require("dotenv").config();
+
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addGlobalData("siteUrl", process.env.SITE_URL || "");
+
   // Watch your Tailwind entry
   eleventyConfig.addWatchTarget("src/styles/style.css");
   eleventyConfig.addPassthroughCopy("src/images");
