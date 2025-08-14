@@ -1,6 +1,6 @@
 {% macro pageHeader(data) %}
 <section
-  class="bg-cover bg-center py-8 md:py-20 relative" style="background-image:url('{{ data.backgroundImage }}')">
+  class="bg-cover bg-center py-8 md:py-20 relative" style="background-image:url('{{ data.backgroundImage | url}}')">
    <div class="absolute inset-0 bg-black bg-opacity-60"></div>
   <div class="relative max-w-7xl mx-auto px-4 text-center text-white z-10">
     <h1 class="text-4xl font-bold mb-4">{{ data.title }}</h1>

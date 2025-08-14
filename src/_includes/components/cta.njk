@@ -1,5 +1,5 @@
 {% macro cta(data) %}
-<section class="relative py-16 bg-center bg-cover" style="background-image:url('{{ data.backgroundImage }}')">
+<section class="relative py-16 bg-center bg-cover" style="background-image:url('{{ data.backgroundImage | url }}')">
   <div class="absolute inset-0 bg-black bg-opacity-80"></div>
   <div class="relative z-10 max-w-3xl mx-auto px-5 text-center text-white">
     <h2 class="text-3xl md:text-4xl font-bold mb-6">{{ data.heading }}</h2>
