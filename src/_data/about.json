@@ -10,7 +10,7 @@
   },
   "about": {
     "image": {
-      "src": "https://placehold.co/600x400",
+      "src": "/images/about/concrete-sawing-behind.webp",
       "alt": "Bayani Concrete Cutting Team"
     },
     "heading": "25 Years of Concrete Excellence",
@@ -45,6 +45,6 @@
       "label": "Get Your Free Quote",
       "url": "/contact"
     },
-    "backgroundImage": "https://placehold.co/1200x400"
+    "backgroundImage": "/images/services/cta.webp"
   }
 }

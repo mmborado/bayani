@@ -15,11 +15,6 @@
     "slug": "about"
   },
   {
-    "name": "Gallery",
-    "url": "/gallery/",
-    "slug": "gallery"
-  },
-  {
     "name": "Contact",
     "url": "/contact/",
     "slug": "contact"

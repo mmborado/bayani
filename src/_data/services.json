@@ -6,13 +6,13 @@
   "pageHeader": {
     "title": "Our Concrete Cutting Services",
     "subtitle": "Professional concrete cutting solutions for residential and commercial projects",
-    "backgroundImage": "https://placehold.co/1200x400"
+    "backgroundImage": "/images/services/hero.webp"
   },
   "services": [
     {
       "title": "Concrete Sawing",
       "description": "With over 25 years of expertise, our concrete sawing service delivers clean, precise horizontal and complex cuts across Southern California. By combining slab sawing and advanced wire sawing techniques, we handle expansion joints, removal of damaged sections, decorative cuts, and asphalt work with minimal dust and vibration. Our commitment to integrity, safety, and on-time delivery ensures your project stays on schedule and on budget.",
-      "image": "https://placehold.co/600x400",
+      "image": "/images/services/concrete-sawing.webp",
       "features": [
         "Expansion joint creation",
         "Damaged section removal",
@@ -26,7 +26,7 @@
     {
       "title": "Core Drilling",
       "description": "Our core drilling team uses state-of-the-art equipment to create accurate, dust- and noise-minimized holes from ½\" to 36\" in diameter through floors, walls, and ceilings. Ideal for plumbing penetrations, electrical conduits, HVAC duct openings, anchoring systems, and more, we serve Los Angeles, Orange County, the Inland Empire, and San Diego with precision and professionalism. Backed by decades of experience and 24/7 responsiveness, we keep your project moving forward.",
-      "image": "https://placehold.co/600x400",
+      "image": "/images/services/core-drilling.webp",
       "features": [
         "Plumbing pipe penetrations",
         "Electrical conduit holes",
@@ -40,7 +40,7 @@
     {
       "title": "Wall Sawing",
       "description": "Our hydraulic wall sawing service creates precise vertical, overhead, and angled openings in concrete and masonry up to 24\" thick—perfect for doors, windows, elevator shafts, and seismic retrofit removal. We maintain structural integrity and minimize vibration and disruption to surrounding areas. With a focus on safety, quality, and clear communication, our team brings decades of cutting expertise to every job.",
-      "image": "https://placehold.co/600x400",
+      "image": "/images/services/wall-sawing.webp",
       "features": [
         "Door & window cut-outs",
         "HVAC access points",
@@ -53,7 +53,7 @@
     {
       "title": "Bobcat & Mini-Excavator",
       "description": "Our Bobcat and mini-excavator services deliver precise concrete breaking, debris removal, grading, and site prep—perfect for driveways, patios, foundations, and material handling. We prioritize safety, efficiency, and clear communication to minimize disruption and keep your project on track. Backed by decades of site-prep expertise, our team ensures every job is completed on time and within budget.",
-      "image": "https://placehold.co/600x400",
+      "image": "/images/services/bobcat.webp",
       "features": [
         "Hydraulic concrete breaking",
         "Debris loading & hauling",
@@ -66,7 +66,7 @@
     {
       "title": "Demolition",
       "description": "Combining precision slab sawing with hydraulic breakers and expert site prep, our demolition service safely and efficiently removes concrete slabs, foundations, walls, and other structures. We prioritize environmental responsibility and thorough cleanup, ensuring minimal disruption and a clear site ready for your next phase. Trust our seasoned team to deliver fast, reliable results with uncompromising safety and professionalism.",
-      "image": "https://placehold.co/600x400",
+      "image": "/images/services/demolition.webp",
       "features": [
         "Concrete slab removal",
         "Foundation & structural demolition",
@@ -85,6 +85,6 @@
       "label": "Get Your Free Quote",
       "url": "/contact"
     },
-    "backgroundImage": "https://placehold.co/1200x400"
+    "backgroundImage": "/images/services/cta.webp"
   }
 }

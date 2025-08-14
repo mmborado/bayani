@@ -13,7 +13,7 @@
     "subheading": "Serving Los Angeles, Orange County, San Bernardino County & San Diego County",
     "ctaText": "Get Your Free Quote",
     "ctaUrl": "/contact",
-    "backgroundImage": "https://placehold.co/1200x500"
+    "backgroundImage": "/images/home/hero.webp"
   },
   "services": {
     "title": "Our Services",
@@ -22,27 +22,27 @@
       {
         "title": "Concrete Sawing",
         "description": "Professional concrete cutting for doorways, windows, and other openings with minimal dust and noise.",
-        "image": "https://placehold.co/400x200"
+        "image": "/images/home/concrete-sawing.webp"
       },
       {
         "title": "Core Drilling",
         "description": "Precise core drilling for plumbing, electrical, HVAC and other utility penetrations in concrete walls, floors, roofs and ceilings.",
-        "image": "https://placehold.co/400x200"
+        "image": "/images/home/core-drilling.webp"
       },
       {
         "title": "Bobcat & Mini-Ex",
         "description": "Versatile Bobcat and mini-excavator work for concrete breaking, debris removal, grading, and site prep—keeping.",
-        "image": "https://placehold.co/400x200"
+        "image": "/images/home/bobcat.webp"
       },
       {
         "title": "Wall Saw",
         "description": "Precision wall sawing to cut precise door, window, and seismic retrofit openings in concrete and masonry walls, preserving structural integrity.",
-        "image": "https://placehold.co/400x200"
+        "image": "/images/home/wall-saw.webp"
       },
       {
         "title": "Demolition",
         "description": "Efficient demolition and removal of concrete structures, slabs, and foundations for renovations or new construction.",
-        "image": "https://placehold.co/400x200"
+        "image": "/images/home/demolition.webp"
       }
     ]
   },
@@ -101,6 +101,6 @@
       "label": "Get Your Free Quote",
       "url": "/contact"
     },
-    "backgroundImage": "https://placehold.co/1200x400"
+    "backgroundImage": "/images/home/cta.webp"
   }
 }
