@@ -17,7 +17,7 @@ slug: gallery
     <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
       {% for item in gallery.gallery.items %}
         <div class="relative overflow-hidden rounded-lg shadow-lg h-72 group">
-          <img src="{{ item.src }}" alt="{{ item.alt }}" class="w-full h-full object-cover transform transition-transform group-hover:scale-105" loading="lazy">
+          <img src="{{ item.src | url }}" alt="{{ item.alt }}" class="w-full h-full object-cover transform transition-transform group-hover:scale-105" loading="lazy">
           <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-end p-4 translate-y-full transition-transform group-hover:translate-y-0">
             <h3 class="text-white text-xl font-semibold">{{ item.title }}</h3>
             <p class="text-gray-200 mt-1 text-sm">{{ item.desc }}</p>

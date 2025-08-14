@@ -4,7 +4,10 @@ const { DateTime } = require("luxon");
 require("dotenv").config();
 
 module.exports = function (eleventyConfig) {
-  const pathPrefix = "/bayani/";
+  const onCI = process.env.GITHUB_ACTIONS === "true";
+  const owner = process.env.GITHUB_REPOSITORY_OWNER || "";
+  const repo = (process.env.GITHUB_REPOSITORY || "").split("/")[1] || "";
+  const isUserSite = repo.toLowerCase() === `${owner.toLowerCase()}.github.io`;
 
   eleventyConfig.addGlobalData("siteUrl", process.env.SITE_URL || "");
 
@@ -26,7 +29,7 @@ module.exports = function (eleventyConfig) {
   });
 
   return {
-    pathPrefix,
+    pathPrefix: onCI && !isUserSite ? `/${repo}/` : "/",
     dir: {
       input: "src",
       includes: "_includes",

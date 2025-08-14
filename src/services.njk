@@ -18,7 +18,7 @@ eleventyComputed:
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
       <div class="overflow-hidden rounded-lg shadow-lg">
         <img
-          src="{{ service.image }}"
+          src="{{ service.image | url }}"
           alt="{{ service.title }}"
           class="w-full h-max max-h-[600px] object-cover"
           loading="lazy"
