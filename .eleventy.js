@@ -8,15 +8,14 @@ module.exports = function (eleventyConfig) {
 
   // Watch your Tailwind entry
   eleventyConfig.addWatchTarget("src/styles/style.css");
-  eleventyConfig.addPassthroughCopy("src/images");
-
+  eleventyConfig.addWatchTarget("src/images");
   // Copy that file from src → _site so it's served at /styles/style.css
   eleventyConfig.addPassthroughCopy({
     "src/styles/style.css": "styles/style.css",
   });
 
   // (Plus any other static assets)
-  eleventyConfig.addPassthroughCopy("src/images");
+  eleventyConfig.addPassthroughCopy({ "src/images": "images" });
   eleventyConfig.addPassthroughCopy("src/fonts");
   eleventyConfig.addPassthroughCopy({ "src/scripts": "scripts" });
 
