@@ -6,6 +6,12 @@
   <title>{{ title or homepage.meta.title }}</title>
   <meta name="description" content="{{ description or homepage.meta.description }}">
 
+  <link rel="icon" href="{{ '/images/favicon.ico' | url }}" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/images/favicon-32.png' | url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/images/favicon-16.png' | url }}">
+  <link rel="apple-touch-icon" href="{{ '/images/apple-touch-icon.png' | url }}">
+
+
   <link href="{{'/styles/style.css' | url }}" rel="stylesheet" />
   <script src="{{'/scripts/main.js' | url}}"></script>
 
