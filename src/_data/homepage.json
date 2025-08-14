@@ -86,12 +86,12 @@
     "title": "Our Work",
     "description": "Explore Our Precision Concrete Cutting & Core Drilling Portfolio",
     "images": [
-      { "src": "/images/1.jpg", "alt": "Bayani Concrete Cutting Truck" },
-      { "src": "/images/2.jpg", "alt": "Excavation Project" },
-      { "src": "/images/3.jpg", "alt": "Construction Equipment" },
-      { "src": "/images/4.jpg", "alt": "Concrete Removal" },
-      { "src": "/images/5.jpg", "alt": "Concrete Cutting Machine" },
-      { "src": "/images/6.jpeg", "alt": "Core Drilling Project" }
+      { "src": "/images/1.webp", "alt": "Bayani Concrete Cutting Truck" },
+      { "src": "/images/2.webp", "alt": "Excavation Project" },
+      { "src": "/images/3.webp", "alt": "Construction Equipment" },
+      { "src": "/images/4.webp", "alt": "Concrete Removal" },
+      { "src": "/images/5.webp", "alt": "Concrete Cutting Machine" },
+      { "src": "/images/6.webp", "alt": "Core Drilling Project" }
     ]
   },
   "cta": {
