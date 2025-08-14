@@ -9,7 +9,7 @@ eleventyComputed:
 {% set data = homepage %}
 
 <!-- Hero Section -->
-<section class="relative h-[500px] bg-center bg-cover" style="background-image:url('{{ data.hero.backgroundImage }}')">
+<section class="relative h-[500px] bg-center bg-cover" style="background-image:url('{{ data.hero.backgroundImage | url}}')">
   <div class="absolute inset-0 bg-black bg-opacity-70"></div>
   <div class="relative z-10 max-w-4xl mx-auto px-5 text-center flex flex-col items-center justify-center h-full">
     <h1 class="text-4xl md:text-5xl font-bold mb-6 drop-shadow-lg text-white">
