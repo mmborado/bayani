@@ -17,7 +17,7 @@
         </h3>
         <ul class="space-y-2">
           {% for service in footer.services.items %}
-            <li><a href="{{service.urlPath}}" class="text-gray-200 hover:text-yellow-400 transition">{{ service.label }}</a></li>
+            <li><a href="{{service.urlPath | url}}" class="text-gray-200 hover:text-yellow-400 transition">{{ service.label }}</a></li>
           {% endfor %}
         </ul>
       </div>

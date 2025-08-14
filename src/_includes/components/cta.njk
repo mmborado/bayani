@@ -6,7 +6,7 @@
     <p class="text-lg md:text-xl mb-8">
       {{ data.text }}
     </p>
-    <a href="{{ data.button.url }}"
+    <a href="{{ data.button.url | url}}"
        class="bg-yellow-400 text-black px-5 py-3 font-bold rounded hover:bg-yellow-500 transition duration-300">
       {{ data.button.label }}
     </a>

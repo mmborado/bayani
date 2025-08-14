@@ -2,7 +2,7 @@
   <div class="container mx-auto px-5">
     <div class="grid grid-areas-header grid-col-2 py-4 md:py-2">
       <div class="area-logo flex items-center space-x-3">
-      <a href="/" >
+      <a href="{{'/' | url}}" >
         <img src="{{ '/images/logo.png' | url }}" alt="{{ site.title }} Logo" class="max-h-[80px] md:max-h-[130px] mr-2">
       </a>
       </div>
@@ -12,7 +12,7 @@
         <span class="text-yellow-400 text-md md:text-xl font-bold md:mb-1">
           CALL NOW: 714-855-8929
         </span>
-        <a href="/contact"
+        <a href="{{'/contact' | url}}"
            class="bg-yellow-400 text-black px-5 py-2 font-bold rounded hover:bg-yellow-500 transition duration-300 transform hover:-translate-y-1">
           Get a Free Quote
         </a>
@@ -49,7 +49,7 @@
         
         <li>
           <a 
-            href="{{ item.url }}" 
+            href="{{ item.url | url}}" 
             class="text-white font-semibold px-3 py-2 block hover:bg-yellow-400 hover:text-black transition
             {% if isActive %}
               text-yellow-400 border-b-2 border-yellow-400
@@ -75,7 +75,7 @@
       {% for item in navigation %}
       {% set isActive = (item.slug == slug) %}
       <li>
-        <a href="{{ item.url }}"
+        <a href="{{ item.url | url}}"
            class="text-white font-semibold px-3 py-2 block hover:bg-yellow-400 hover:text-black transition
             {% if isActive %}
               text-yellow-400 border-b-2 border-yellow-400

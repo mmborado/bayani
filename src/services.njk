@@ -35,7 +35,7 @@ eleventyComputed:
         </ul>
         {% endif %}
         <a
-          href="{{service.href}}"
+          href="{{service.href | url}}"
           class="inline-block bg-yellow-400 text-black px-5 py-3 font-bold rounded hover:bg-yellow-500 transition duration-300"
         >
           Request {{ service.title }}

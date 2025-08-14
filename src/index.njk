@@ -18,7 +18,7 @@ eleventyComputed:
     <p class="text-lg md:text-xl mb-8 drop-shadow text-gray-100">
       {{ data.hero.subheading }}
     </p>
-    <a href="{{ data.hero.ctaUrl }}"
+    <a href="{{ data.hero.ctaUrl | url}}"
        class="bg-yellow-400 text-black px-5 py-3 font-bold rounded hover:bg-yellow-500 transition duration-300">
       {{ data.hero.ctaText }}
     </a>
