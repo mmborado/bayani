@@ -4,6 +4,8 @@ const { DateTime } = require("luxon");
 require("dotenv").config();
 
 module.exports = function (eleventyConfig) {
+  const pathPrefix = "/bayani/";
+
   eleventyConfig.addGlobalData("siteUrl", process.env.SITE_URL || "");
 
   // Watch your Tailwind entry
@@ -24,6 +26,7 @@ module.exports = function (eleventyConfig) {
   });
 
   return {
+    pathPrefix,
     dir: {
       input: "src",
       includes: "_includes",
